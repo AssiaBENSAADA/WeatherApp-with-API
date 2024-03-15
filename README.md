@@ -10,7 +10,7 @@
 
 - CSS 
 
-- JavaScript <i class="fab fa-js"></i>
+- JavaScript 💻
 
 - open-meteo API
 
