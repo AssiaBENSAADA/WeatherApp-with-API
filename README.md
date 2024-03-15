@@ -4,13 +4,13 @@
 
 #### ##Description: This is a cool project where you can check the weather forecast for any location. ☀️🌧️⛈️
 
-#### ##Technologies Used:
+#### ##Technologies Used 💻:
 
 -  HTML 
 
 - CSS 
 
-- JavaScript 💻
+- JavaScript 
 
 - open-meteo API
 
