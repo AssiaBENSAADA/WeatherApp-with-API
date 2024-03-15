@@ -22,4 +22,4 @@
 
 5. ## ![Alt Text](https://github.com/AssiaBENSAADA/WeatherApp-with-API/blob/main/js%20project.jpeg)📸
    
-   ## ##Credits - Weather data provided by OpenWeatherMap 🌐 - Icons from [icons8]([Free Icons, Clipart Illustrations, Photos, and Music (icons8.com)](https://icons8.com/)) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
+   ## ##Credits - Weather data provided by OpenWeatherMap 🌐 - Icons from [icons8](https://icons8.com/) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
