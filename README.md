@@ -4,7 +4,15 @@
 
 #### ##Description: This is a cool project where you can check the weather forecast for any location. ☀️🌧️⛈️
 
-#### ##Technologies Used - HTML - CSS - JavaScript - open-meteo API
+#### ##Technologies Used:
+
+-  HTML 
+
+- CSS 
+
+- JavaScript <i class="fab fa-js"></i>
+
+- open-meteo API
 
 #### ## Features - View current weather conditions 🌡️ - Check hourly and daily weather forecasts 🕒 - Get information about temperature, wind speed, precipitation, etc. 💨💧
 
@@ -19,8 +27,8 @@
 3. Click the search button to view the weather forecast. 🔍 
 
 4. Explore the hourly and daily weather details. 📅
-
-5. ## ![Alt Text](https://github.com/AssiaBENSAADA/WeatherApp-with-API/blob/main/js%20project.jpeg)📸
+   
+   ## ![Alt Text](https://github.com/AssiaBENSAADA/WeatherApp-with-API/blob/main/js%20project.jpeg)📸
    
    
 
