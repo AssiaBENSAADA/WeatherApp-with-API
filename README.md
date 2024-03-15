@@ -2,15 +2,15 @@
 
 # My Awesome Project 🚀
 
-### ##Description: This is a cool project where you can check the weather forecast for any location. ☀️🌧️⛈️
+#### ##Description: This is a cool project where you can check the weather forecast for any location. ☀️🌧️⛈️
 
-### ##Technologies Used - HTML - CSS - JavaScript - open-meteo API
+#### ##Technologies Used - HTML - CSS - JavaScript - open-meteo API
 
-### ## Features - View current weather conditions 🌡️ - Check hourly and daily weather forecasts 🕒 - Get information about temperature, wind speed, precipitation, etc. 💨💧
+#### ## Features - View current weather conditions 🌡️ - Check hourly and daily weather forecasts 🕒 - Get information about temperature, wind speed, precipitation, etc. 💨💧
 
-### Installation 1. Clone the repository: [AssiaBENSAADA/WeatherApp-with-API (github.com)](https://github.com/AssiaBENSAADA/WeatherApp-with-API)
+#### Installation 1. Clone the repository: [AssiaBENSAADA/WeatherApp-with-API (github.com)](https://github.com/AssiaBENSAADA/WeatherApp-with-API)
 
-## Usage
+### Usage
 
 1. Open index.html in your web browser. 🌐
 
@@ -22,4 +22,6 @@
 
 5. ## ![Alt Text](https://github.com/AssiaBENSAADA/WeatherApp-with-API/blob/main/js%20project.jpeg)📸
    
-   ## ##Credits - Weather data provided by 🌦️[open-meteo.com](https://open-meteo.com/en/docs) 🌐 - Icons from [icons8](https://icons8.com/) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
+   
+
+#### Credits - Weather data provided by 🌦️[open-meteo.com](https://open-meteo.com/en/docs) 🌐 - Icons from [icons8](https://icons8.com/) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
