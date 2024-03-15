@@ -1,0 +1,231 @@
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48;
+    vertical-align: middle;
+  }
+ 
+.material-symbols-outlined {
+  
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+  body {
+    background-color: rgb(248, 249, 250);
+    color: rgba(0, 0, 0, .87);
+    font-family: 'Noto Sans', sans-serif;
+  }
+ h2{
+
+    font-size: 25px; /* Choisissez une taille de police adaptée */
+    font-weight: bold; /* Assurez-vous que le titre est en gras pour une meilleure visibilité */
+    color: #0a0909; /* Choisissez une couleur de texte appropriée */
+    margin-bottom: 30px; /* Ajoutez un espacement en bas pour séparer le titre des autres éléments */
+    margin-top: 50px;
+    margin-left: 40px;
+ }
+  .search-box{
+    display: flex;
+    text-align: center;
+    width: 100;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  .search-box input{
+    
+    width: 300px;
+    background-color: white;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 12px;
+    clear: both;
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 10px;
+    padding: 1em; 
+  }
+ 
+  .search-box button{
+    margin-left: 0px;
+    
+    border-radius: 35%;
+    background-color: white;
+    width: 50px;
+    border: 1px solid rgb(218, 220, 224);
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+  }
+  .weatherCards {
+    font-family: 'Noto Sans', sans-serif;
+    display: none; /* Par défaut, cache le message de chargement */
+
+}
+  
+  .card {
+    background-color: white;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 12px;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    height: 300px;
+  }
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Assurez-vous que la hauteur de la page est définie */
+  }
+  .ContainerDetails{
+    height: 250px;
+    margin-top: 100px;
+    flex-grow: 1; /* Faites en sorte que le conteneur prenne tout l'espace disponible */
+    
+  }
+  .container {
+    flex-grow: 1; /* Faites en sorte que le conteneur prenne tout l'espace disponible */
+    
+  }
+  
+  .date {
+    border: 1px solid rgba(11, 11, 11, 0.87);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: .5em;
+    max-width: 75%;
+    min-width: 50px;
+    padding: .2em;
+    text-transform: uppercase;
+  }
+  
+  .temperatures {
+    font-weight: bold;  
+    display: flex;
+    justify-content: center
+   
+  }
+  
+  .minTemp {
+    color: #185ABC
+  }
+  
+  .minTemp::after {
+    color: rgba(0, 0, 0, .87);
+    content: ' / ';
+  }
+  
+  .maxTemp {
+    color: #A50E0E;
+  }
+  
+  .wind {
+    margin-bottom: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .windDirection {
+    vertical-align: middle;
+  }
+  
+  .windSpeed {
+    font-weight: bold;
+    padding-left: .3em;
+  }
+  
+  .windSpeed::after {
+    content: ' km/h';
+    font-weight: 500;
+  }
+  
+  .windGusts {
+    background-color: #A50E0E;
+    border-radius: 5px;
+    color: white;
+    padding: .2em;
+  }
+  
+  #hourlyWeather {
+    width: 500px;
+    background-color: white;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 12px;
+    clear: both;
+    font-family: 'Noto Sans', sans-serif;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #hourlyWeather .date {
+    text-align: center
+  }
+  
+  .hourText {
+    font-weight: bold;
+    width: 250px;
+    margin: auto;
+    padding-bottom: 10pt;
+  }
+  
+  #hourlyWeather .hour {
+    margin: auto;
+    padding: .5em 0;
+    width: 75%;
+  }
+  
+  .hour:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, .87);
+  }
+  
+  .hourTemperature {
+    padding: 0 .5em
+    
+  }
+  
+  .precipitation{
+    flex-grow: 1; /* La colonne precipitation prendra tout l'espace restant disponible */
+    align-items: center;
+    background-color: rgba(28,116,233,.33);
+    border-radius: 5px;
+    color: white;  
+    font-family: 'Noto Sans', sans-serif;  
+    padding: 0 .5em;  
+}
+.group{
+  display: flex;
+  margin: 10px 0px 0px 40px;
+  justify-content: baseline;
+  gap: 20px;
+}
+.cardDetails{
+    
+    padding: 1em;;
+    margin: auto;
+    background-color: white;
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 12px;
+    justify-content: last baseline;
+    width: 550px;
+}
+.trait{
+  border: 2px;
+  color: black;
+ 
+}
+.windGustsDetails{
+  background-color: #A50E0E;
+    border-radius: 5px;
+    color: white;
+    padding: .2em;
+    width: 80px;
+    align-items: center;
+}
