@@ -4,7 +4,7 @@
 
 ### ##Description: This is a cool project where you can check the weather forecast for any location. ☀️🌧️⛈️
 
-### ##Technologies Used - HTML - CSS - JavaScript - OpenWeatherMap API
+### ##Technologies Used - HTML - CSS - JavaScript - open-meteo API
 
 ### ## Features - View current weather conditions 🌡️ - Check hourly and daily weather forecasts 🕒 - Get information about temperature, wind speed, precipitation, etc. 💨💧
 
@@ -22,4 +22,4 @@
 
 5. ## ![Alt Text](https://github.com/AssiaBENSAADA/WeatherApp-with-API/blob/main/js%20project.jpeg)📸
    
-   ## ##Credits - Weather data provided by OpenWeatherMap 🌐 - Icons from [icons8](https://icons8.com/) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
+   ## ##Credits - Weather data provided by 🌦️[open-meteo.com](https://open-meteo.com/en/docs) 🌐 - Icons from [icons8](https://icons8.com/) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
