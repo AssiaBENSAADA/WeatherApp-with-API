@@ -242,10 +242,6 @@ height: 70px;
   width: 80px; /* Taille initiale de l'icône */
   height: 80px;
   margin: 0 auto; /* Centre les icônes horizontalement */
-}
+  margin-bottom: 10px;
 
-@media (min-width: 80px), (min-height: 80px) {
-  .weatherIcon {
-      width: 50px; /* Taille maximale de l'icône */
-  }
 }
