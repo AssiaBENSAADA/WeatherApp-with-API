@@ -6,7 +6,7 @@
 
 #### ##Technologies Used 💻:
 
--  HTML 
+- HTML 
 
 - CSS 
 
@@ -29,7 +29,5 @@
 4. Explore the hourly and daily weather details. 📅
    
    ## ![Alt Text](https://github.com/AssiaBENSAADA/WeatherApp-with-API/blob/main/js%20project.jpeg)📸
-   
-   
 
 #### Credits - Weather data provided by 🌦️[open-meteo.com](https://open-meteo.com/en/docs) 🌐 - Icons from [icons8](https://icons8.com/) and [Browse Fonts - Google Fonts](https://fonts.google.com/)🔍
