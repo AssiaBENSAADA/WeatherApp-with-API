@@ -26,8 +26,8 @@ async function apiweather(latitude, longitude) {
     const weatherInfo = weatherCodeInterpretation(weatherCode);
     card.innerHTML = ` 
                 <div class="date">${data.daily.time[i]}</div>
-                <div>${weatherInfo.text}</div>
-                <div>${weatherInfo.image}</div>;
+                <div class="WeatherInfoText">${weatherInfo.text}</div>
+                <div class="weatherIcon">${weatherInfo.image}</div>
                 <div class=" temperatures">
                 <div class="minTemp">${
                   data.daily.temperature_2m_min[i] +

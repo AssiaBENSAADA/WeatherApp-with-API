@@ -65,6 +65,9 @@
     display: none; /* Par défaut, cache le message de chargement */
 
 }
+.WeatherInfoText{
+height: 70px;
+}
   
   .card {
     background-color: white;
@@ -91,7 +94,10 @@
   }
   .container {
     flex-grow: 1; /* Faites en sorte que le conteneur prenne tout l'espace disponible */
-    
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optionnel : cela alignera également les cartes verticalement */
+    height: 40vh; /* Pour occuper toute la hauteur de la fenêtre visible */
   }
   
   .date {
@@ -222,10 +228,24 @@
  
 }
 .windGustsDetails{
-  background-color: #A50E0E;
+    background-color: #A50E0E;
     border-radius: 5px;
     color: white;
     padding: .2em;
     width: 80px;
     align-items: center;
+    
+}
+
+
+.weatherIcon {
+  width: 80px; /* Taille initiale de l'icône */
+  height: 80px;
+  margin: 0 auto; /* Centre les icônes horizontalement */
+}
+
+@media (min-width: 80px), (min-height: 80px) {
+  .weatherIcon {
+      width: 50px; /* Taille maximale de l'icône */
+  }
 }
